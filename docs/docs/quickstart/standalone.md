@@ -4,8 +4,8 @@ title: Standalone Quickstart
 
 ## Installing Starwhale
 
-Starwhale has three types of instances: Standalone, On-Premises, Cloud Hosted. Starting with standalone mode is ideal for understanding and mastering Starwhale.
-You install Starwhale Standalone by running:
+Starwhale has three types of instances: Standalone, On-Premises, and Cloud Hosted. Starting with standalone mode is ideal for understanding and mastering Starwhale.
+You can install Starwhale Standalone by running:
 
 ```bash
 python3 -m pip install --pre starwhale
@@ -128,7 +128,7 @@ Run evaluation job in current activated python runtime.
  ```
 
   :::tip Create job too slow
-  Job create command will pull runtime base image from ghcr.io by default, it maybe costs a lot of time, meanwhile, the process of `pip install` is also not fast.
+  Job create command will pull runtime base image from ghcr.io by default. It maybe costs a lot of time, meanwhile, the process of `pip install` is also not fast.
   :::
 
-  👏 Now you have completed the basic step for starwhale standalone.
+  👏 Now you have completed the primary step for starwhale standalone.
